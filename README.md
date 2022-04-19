@@ -1,5 +1,5 @@
 # Game Engine Tutorial
-*Mr. Miyoshi’s Beginning Programming / Game Programming Class*
+*Mr. Miyoshi’s Beginning Programming / Game Programming Class L*
 
 This tutorial will walk you through the process of creating your own game, starting with a barebones project and building up to a 
 complete game with user input, game objects, collisions, and more. Along the way we’ll explore each piece of the game in-depth. 

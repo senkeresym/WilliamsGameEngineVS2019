@@ -4,7 +4,7 @@
 const int WINDOW_WIDTH = 800;
 const int WINDOW_HEIGHT = 600;
 
-const std::string WINDOW_TITLE = "My Awesome Game";
+const std::string WINDOW_TITLE = "My swagalishus game";
 
 int main()
 {
@@ -17,7 +17,7 @@ int main()
 	// Create our scene.
 	GameScenePtr scene = std::make_shared<GameScene>();
 	GAME.setScene(scene);
-
+	
 	// Run the game loop.
 	GAME.run();
 
