@@ -9,8 +9,10 @@ public:
 	Ship();
 
 	void draw();
+	void update(sf::Time& elased);
 private:
 	sf::Sprite sprite_;
+	int fireTimer_ = 0;
 };
 
 typedef std::shared_ptr<Ship> ShipPtr;
