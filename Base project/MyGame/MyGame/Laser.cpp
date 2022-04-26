@@ -1,4 +1,4 @@
-#include "laser.h"
+#include "Laser.h"
 
 const float SPEED = 1.2f;
 
@@ -29,3 +29,7 @@ void Laser::update(sf::Time& elapsed)
 	}
 		
 }
+
+
+//IN theory boop
+// Will become the most powerful anime villan of all time, I wil become unstoppable, and murder annoying animay childs
