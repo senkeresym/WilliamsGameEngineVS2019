@@ -88,6 +88,8 @@
     <ClCompile Include="Engine\Scene.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="meteor.cpp" />
+    <ClCompile Include="MeteorSpawner.cpp" />
     <ClCompile Include="MyGame.cpp" />
     <ClCompile Include="Ship.cpp" />
   </ItemGroup>
@@ -99,6 +101,8 @@
     <ClInclude Include="Engine\Scene.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="Laser.h" />
+    <ClInclude Include="meteor.h" />
+    <ClInclude Include="meteorspawnser.h" />
     <ClInclude Include="Ship.h" />
   </ItemGroup>
   <ItemGroup>

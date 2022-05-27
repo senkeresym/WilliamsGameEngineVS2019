@@ -17,6 +17,8 @@
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="Ship.cpp" />
     <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="MeteorSpawner.cpp" />
+    <ClCompile Include="meteor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\AnimatedSprite.h">
@@ -37,6 +39,8 @@
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="Ship.h" />
     <ClInclude Include="Laser.h" />
+    <ClInclude Include="meteorspawnser.h" />
+    <ClInclude Include="meteor.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Engine">

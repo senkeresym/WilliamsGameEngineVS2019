@@ -6,7 +6,8 @@ Laser::Laser(sf::Vector2f pos)
 {
 	sprite_.setTexture(GAME.getTexture("Resources/laser.png"));
 	sprite_.setPosition(pos);
-	assignTag("Laser");
+	assignTag("laser");
+	setCollisionCheckEnabled(true);
 }
 
 void Laser::draw()
@@ -30,6 +31,10 @@ void Laser::update(sf::Time& elapsed)
 		
 }
 
+sf::FloatRect Laser::getCollisionRect()
+{
+	return sprite_.getGlobalBounds();
+}
 
 //IN theory boop
 // Will become the most powerful anime villan of all time, I wil become unstoppable, and murder annoying animay childs

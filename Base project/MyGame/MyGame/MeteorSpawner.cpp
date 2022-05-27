@@ -4,8 +4,8 @@ const int SPAWN_DELAY = 1000;
 
 void MeteorSpawner::update(sf::Time& elapsed)
 {
-	int mELapsed = elapsed.asMilliseconds();
-	timer_ -= msElapsed;
+	int mElapsed = elapsed.asMilliseconds();
+	timer_ -= mElapsed;
 	if (timer_ <= 0)
 	{
 		timer_ = SPAWN_DELAY;
@@ -18,4 +18,7 @@ void MeteorSpawner::update(sf::Time& elapsed)
 		MeteorPtr meteor = std::make_shared<Meteor>(sf::Vector2f(meteorX, meteorY));
 		GAME.getCurrentScene().addGameObject(meteor);
 	}
+
+
+
 }
