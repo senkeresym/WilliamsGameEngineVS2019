@@ -1,4 +1,5 @@
 #include "Meteor.h"
+#include "GameScene.h"
 
 const float SPEED = 0.25f;
 
